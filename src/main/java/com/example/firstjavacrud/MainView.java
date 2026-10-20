@@ -11,7 +11,7 @@ public class MainView extends VerticalLayout {
 
     private final CustomerRepository repository;
     private final Grid<Customer> grid = new Grid<>(Customer.class);
-    private final TextField firstName = new TextField("First Name");
+    private final TextField firstName = new TextField("Customer First Name");
     private final TextField lastName = new TextField("Last Name");
     private final Button save = new Button("Save Customer");
 
